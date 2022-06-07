@@ -25,7 +25,10 @@ picture h2{
 .titulo_corpo {
     padding-left: 20mm;
 }
-
+.espaco_lados{
+    padding:  0px 2vw 2vw 2vw; 
+    
+}
 
 .imagemcapa{
     max-width: 100%;
@@ -52,10 +55,7 @@ picture{
     transform: translateY(110%);
 }
 
-.espaco_lados{
-    padding: 0px 70px 70px 70px;
-    
-}
+
 
 .pagina_corpo{
     padding: 0mm 20mm 0mm 20mm;
@@ -91,13 +91,11 @@ picture{
     padding: 10px;
 }
 
-
-
-nav {
+nav{
     background-color: rgb(89, 89, 255);
     text-align: center;
     max-width: 1897px;
-    padding: 10px;
+    padding: max(10px, 1%, 2px, 1%, 2px, 1%, 2px, 1%);
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -106,8 +104,11 @@ nav {
 nav > a {
     color: white;
     font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
-    padding: 15px;
-    font-size: 20px;
+    padding-left: max(5px, 2%);
+    padding-right: max(5px, 2%);
+    padding-top: max(3px, 1%);
+    padding-bottom: max(3px, 1%);
+    font-size: max(18px, 1.7vw);
     transition-duration: 0.5s;
     text-decoration: none;
 }
