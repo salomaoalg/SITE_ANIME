@@ -91,7 +91,7 @@ article p{
     /* cima direta baixo esquerda */  
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .container_art{  
         flex-wrap: wrap;
 
