@@ -82,7 +82,12 @@ article p{
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 50px;
+    picture{
+        margin-top: 10px;
+    }
+    
 }
+
 .container_art picture{
     transition-property: all;
     transition-duration: 0.5s;
@@ -90,14 +95,11 @@ article p{
 
 .container_art h2{
     color: white;
-    font-size: max(10px, 2.5vw); /*Viewport unit*/
+    font-size: max(29px, 2.5vw);  /*Viewport unit*/
 }
 
-.container_art{
-    background-color: rgb(210, 210, 246);
-    padding: 15px 0px 15px 15px;
-    /* cima direta baixo esquerda */
-}
+
+
 .container_art picture:hover{
     padding: 10px;
 }
@@ -126,6 +128,8 @@ nav > a {
 
 nav a:hover {
     background-color: rgb(9, 22, 139);
+    outline: 5px solid black;
+   
 }
 
 footer {
