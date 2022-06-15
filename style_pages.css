@@ -3,7 +3,15 @@
     margin: 0;
 }
 
-header{
+.main-header-h1{
     text-align: right;
     position: fixed;
+    background-image: url(../SITE_ANIME/659x1099onepiece_logo.jpg);
+    background-position: left top;
+    background-size: auto, cover;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
 }
