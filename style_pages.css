@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../SITE_ANIME/caveira_chapeu_palha.jpg);
+}
+
 .main-header-h1{
     text-align: right;
     position: fixed;
@@ -12,6 +17,41 @@
     height: 100%;
     width: 25%;
     text-align: center;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    background-color: rgba(255, 141, 2, 0.353);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-class-content{
+    margin-left: 25%;
+    box-sizing: border-box;
+}
+.main-class-content p{
+    margin-top: 10px;
+    line-height: 1.7;
+    text-align: justify;
+    padding: 10px;
     color: white;
+}
+.main-class-content h1{
+    text-align: center;
+    padding-top: 10px;
+    background-color: #fec432;
+    
+    
+}
+.section_estilo{
+    background-color: #f8cb9cf5;
+   
+}
+
+header h2{
+    margin-top: 50%;
+    font-size: 2.5vw;
+    text-shadow: 4px 4px 1px black;
+    background: rgba(255, 255, 255, 0.372);
+    padding: 40px;
+    display: block;
     box-sizing: border-box;
 }
